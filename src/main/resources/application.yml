@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: test
+  ai:
+    mistralai:
+      api-key: hlJgUrGo5V43eU70tzrv3yHL1aNVhPmt
+      chat:
+        enabled: true
+        options:
+          model: mistral-large-latest
+
+server:
+  port: 58080
+  servlet:
+    context-path: /test
+
+springdoc:
+  swagger-ui:
+    supported-submit-methods:
+      - get
